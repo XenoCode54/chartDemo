@@ -1,8 +1,4 @@
-                        // This script will be replaced with a hosted version containing
-                        // all possible Apex Charts scripts and data contained on windframe.
-                        
-                              //line Chart data and script
-                              var options = {
+                           var options = {
           series: [{
             name: "Desktops",
             data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
@@ -37,9 +33,7 @@
 
         var chart = new ApexCharts(document.querySelector("#chart"), options);
         chart.render(); 
-//        line chart end
 
-// Donut chart data and script
         var options = {
           series: [44, 55, 13, 33],
           chart: {
